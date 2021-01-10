@@ -53,13 +53,14 @@ def get_settings():
         mode = int(input(f"Enter mode\n"
                          f"\t0: Custom\n"
                          f"\t1-{len(PRESETS.keys())}: Presets\n"
-                         f">>>{Fore.GREEN}"))
-        print(Fore.RESET + SEP)
+                         f">>>}"))
+        print(SEP)
         if mode == 0:
             lowercase = int(input("Lowercase count :> "))
             uppercase = int(input("Uppercase count :> "))
             digits = int(input("Digits count :> "))
             punctuation = int(input("Punctuation count :> "))
+            pritn(SEP)
             return {
                 'lowercase': lowercase,
                 'uppercase': uppercase,
