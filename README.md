@@ -11,25 +11,30 @@ Simple Password Generator
     sudo apt-get install git
     git clone https://github.com/caxapok1python/passgen
     cd passgen
-    chmod +x install.sh
-    ./install.sh
+    python3 -m pip install -r req.txt
 
 ## Termux
     pkg install git
     git clone https://github.com/caxapok1python/passgen
     cd passgen
-    chmod +x install.sh
-    ./install.sh
+    python -m pip install -r req.txt
 
 ## MacOS
     brew install git
     git clone https://github.com/caxapok1python/passgen
     cd passgen
-    chmod +x install.sh
-    ./install.sh
+    python3 -m pip install -r req.txt
 
 ## Windows
-In development..Soon..
+>1.Download the zip archive and unpack it
+
+>2.Open the archive folder and hold down Shift and right-click
+
+>3.In the window that opens, select to _Open Power Shell here_
+
+>4.Type in _Power Shell_ command
+
+    python -m pip install -r req.txt
 
 ***
 
@@ -38,5 +43,16 @@ In development..Soon..
 
 >!!!Only python3 supported!!!
 
+## Linux
     python3 passgen.py
+
+## Termux
+    python passgen.py
+
+## MacOS
+    python3 passgen.py
+
+## Windows 
+    python passgen.py
+***
 
