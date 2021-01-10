@@ -53,7 +53,7 @@ def get_settings():
         mode = int(input(f"Enter mode\n"
                          f"\t0: Custom\n"
                          f"\t1-{len(PRESETS.keys())}: Presets\n"
-                         f">>>}"))
+                         f">>>"))
         print(SEP)
         if mode == 0:
             lowercase = int(input("Lowercase count :> "))
